@@ -309,7 +309,7 @@ class OutputEdit extends Component<Props, State> {
               onChange={this.onChangeOutputType}
             >
               <option value="email">Email</option>
-              <option value="notify">Email via GOVUK Notify test</option>
+              <option value="notify">Email via GOVUK Notify</option>
               <option value="webhook">Webhook</option>
               <option value="savePerPage">Save Per Page Webhook</option>
             </select>

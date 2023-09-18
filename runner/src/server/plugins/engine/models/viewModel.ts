@@ -328,7 +328,7 @@ export class ViewModel {
   }
 
   splitFileName(fileName: string) {
-    if (typeof fileName !== "undefined") {
+    if (typeof fileName !== "undefined" && fileName !== null) {
       let value = fileName.split("/");
       return value[value.length - 1];
     }
